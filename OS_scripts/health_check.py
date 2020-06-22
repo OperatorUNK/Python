@@ -16,6 +16,6 @@ if not check_disk_usage('/') or not check_cpu_usage():
     print("ERROR!")
 
 elif check_localhost() and check_conectivity():
-    print("Everything ok")
+    print("Everything ok ")
 else:
-    print("Network checks failed")
+    print("Network checks failed ")
